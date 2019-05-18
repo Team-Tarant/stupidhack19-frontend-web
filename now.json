@@ -8,9 +8,11 @@
       "config": { "distDir": "build" }
     }
   ],
-  "env": {
-    "SASS_PATH": "node_modules:src",
-    "REACT_APP_API_KEY": "@stupidhack19-backend-api-key"
+  "build": {
+    "env": {
+      "SASS_PATH": "node_modules:src",
+      "REACT_APP_API_KEY": "@stupidhack19-front-api-key"
+    }
   },
   "routes": [
     {
